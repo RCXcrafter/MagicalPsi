@@ -1,0 +1,226 @@
+item.psionup:wideSocket.name=Wide Rod Notch
+item.psionup:fakeCAD.name=Inline Rod
+item.psionup:magazine.name=Node Casing
+item.psionup:liquidColorizer.name=Liquid-Ink Rod Varnish
+item.psionup:emptyColorizer.name=Drained Rod Varnish
+item.psionup:cadAssemblyBlaster.name=Mana Blaster Rod Assembly
+
+tile.psionup:conjuredPulsar.name=Conjured Pulsar
+tile.psionup:conjuredStar.name=Conjured Star
+
+tile.psionup:brightPlateWhite.name=White Psimetal Flow Plate
+tile.psionup:brightPlateOrange.name=Orange Psimetal Flow Plate
+tile.psionup:brightPlateMagenta.name=Magenta Psimetal Flow Plate
+tile.psionup:brightPlateLightBlue.name=Light Blue Psimetal Flow Plate
+tile.psionup:brightPlateYellow.name=Yellow Psimetal Flow Plate
+tile.psionup:brightPlateLime.name=Lime Psimetal Flow Plate
+tile.psionup:brightPlatePink.name=Pink Psimetal Flow Plate
+tile.psionup:brightPlateGray.name=Gray Psimetal Flow Plate
+tile.psionup:brightPlateLightGray.name=Light Gray Psimetal Flow Plate
+tile.psionup:brightPlateCyan.name=Cyan Psimetal Flow Plate
+tile.psionup:brightPlatePurple.name=Purple Psimetal Flow Plate
+tile.psionup:brightPlateBlue.name=Blue Psimetal Flow Plate
+tile.psionup:brightPlateBrown.name=Brown Psimetal Flow Plate
+tile.psionup:brightPlateGreen.name=Green Psimetal Flow Plate
+tile.psionup:brightPlateRed.name=Red Psimetal Flow Plate
+tile.psionup:brightPlateBlack.name=Black Psimetal Flow Plate
+
+tile.psionup:darkPlateWhite.name=Dark White Psimetal Flow Plate
+tile.psionup:darkPlateOrange.name=Dark Orange Psimetal Flow Plate
+tile.psionup:darkPlateMagenta.name=Dark Magenta Psimetal Flow Plate
+tile.psionup:darkPlateLightBlue.name=Dark Light Blue Psimetal Flow Plate
+tile.psionup:darkPlateYellow.name=Dark Yellow Psimetal Flow Plate
+tile.psionup:darkPlateLime.name=Dark Lime Psimetal Flow Plate
+tile.psionup:darkPlatePink.name=Dark Pink Psimetal Flow Plate
+tile.psionup:darkPlateGray.name=Dark Gray Psimetal Flow Plate
+tile.psionup:darkPlateLightGray.name=Dark Light Gray Psimetal Flow Plate
+tile.psionup:darkPlateCyan.name=Dark Cyan Psimetal Flow Plate
+tile.psionup:darkPlatePurple.name=Dark Purple Psimetal Flow Plate
+tile.psionup:darkPlateBlue.name=Dark Blue Psimetal Flow Plate
+tile.psionup:darkPlateBrown.name=Dark Brown Psimetal Flow Plate
+tile.psionup:darkPlateGreen.name=Dark Green Psimetal Flow Plate
+tile.psionup:darkPlateRed.name=Dark Red Psimetal Flow Plate
+tile.psionup:darkPlateBlack.name=Dark Black Psimetal Flow Plate
+
+tile.psionup:cadCaseWhite.name=White Rod Case
+tile.psionup:cadCaseOrange.name=Orange Rod Case
+tile.psionup:cadCaseMagenta.name=Magenta Rod Case
+tile.psionup:cadCaseLightBlue.name=Light Blue Rod Case
+tile.psionup:cadCaseYellow.name=Yellow Rod Case
+tile.psionup:cadCaseLime.name=Lime Rod Case
+tile.psionup:cadCasePink.name=Pink Rod Case
+tile.psionup:cadCaseGray.name=Gray Rod Case
+tile.psionup:cadCaseLightGray.name=Light Gray Rod Case
+tile.psionup:cadCaseCyan.name=Cyan Rod Case
+tile.psionup:cadCasePurple.name=Purple Rod Case
+tile.psionup:cadCaseBlue.name=Blue Rod Case
+tile.psionup:cadCaseBrown.name=Brown Rod Case
+tile.psionup:cadCaseGreen.name=Green Rod Case
+tile.psionup:cadCaseRed.name=Red Rod Case
+tile.psionup:cadCaseBlack.name=Black Rod Case
+
+item.psionup:ebonyHelmet.name=Ebony Focusing Plate Helmet
+item.psionup:ebonyChestplate.name=Ebony Focusing Plate Chestplate
+item.psionup:ebonyLeggings.name=Ebony Focusing Plate Leggings
+item.psionup:ebonyBoots.name=Ebony Focusing Plate Boots
+
+item.psionup:ivoryHelmet.name=Ivory Focusing Plate Helmet
+item.psionup:ivoryChestplate.name=Ivory Focusing Plate Chestplate
+item.psionup:ivoryLeggings.name=Ivory Focusing Plate Leggings
+item.psionup:ivoryBoots.name=Ivory Focusing Plate Boots
+
+item.psionup:flashRing.name=Flash Ring
+
+item.psionup:ebonyPickaxe.name=Ebony Flowpick
+item.psionup:ebonyShovel.name=Ebony Flowspade
+item.psionup:ebonyAxe.name=Ebony Flowaxe
+item.psionup:ebonySword.name=Ebony Flowblade
+
+item.psionup:ivoryPickaxe.name=Ivory Flowpick
+item.psionup:ivoryShovel.name=Ivory Flowspade
+item.psionup:ivoryAxe.name=Ivory Flowaxe
+item.psionup:ivorySword.name=Ivory Flowblade
+
+item.psionup:bioticSensor.name=Focusing Plate Biotic Sensor
+
+item.psionup:gaussRifle.name=Gauss Pulse Rod
+item.psionup:gaussBullet.name=Gauss Pulse Node
+
+psionup.potion.psishock=Psionic Shock
+psionup.potion.psipulse=Psionic Pulse
+psionup.brew.psishock=Eidos Distortion
+psionup.brew.psipulse=Cognitive Acceleration
+
+tipped_arrow.effect.psipulse=Arrow of Intense Focus
+potion.effect.psipulse=Potion of Intense Focus
+splash_potion.effect.psipulse=Splash Potion of Intense Focus
+lingering_potion.effect.psipulse=Lingering Potion of Intense Focus
+
+tipped_arrow.effect.psipulseLong=Arrow of Intense Focus
+potion.effect.psipulseLong=Potion of Intense Focus
+splash_potion.effect.psipulseLong=Splash Potion of Intense Focus
+lingering_potion.effect.psipulseLong=Lingering Potion of Intense Focus
+
+tipped_arrow.effect.psipulseStrong=Arrow of Intense Focus
+potion.effect.psipulseStrong=Potion of Intense Focus
+splash_potion.effect.psipulseStrong=Splash Potion of Intense Focus
+lingering_potion.effect.psipulseStrong=Lingering Potion of Intense Focus
+
+tipped_arrow.effect.psishock=Arrow of Mental Disruption
+potion.effect.psishock=Potion of Mental Disruption
+splash_potion.effect.psishock=Splash Potion of Mental Disruption
+lingering_potion.effect.psishock=Lingering Potion of Mental Disruption
+
+tipped_arrow.effect.psishockLong=Arrow of Mental Disruption
+potion.effect.psishockLong=Potion of Mental Disruption
+splash_potion.effect.psishockLong=Splash Potion of Mental Disruption
+lingering_potion.effect.psishockLong=Lingering Potion of Mental Disruption
+
+tipped_arrow.effect.psishockStrong=Arrow of Mental Disruption
+potion.effect.psishockStrong=Potion of Mental Disruption
+splash_potion.effect.psishockStrong=Splash Potion of Mental Disruption
+lingering_potion.effect.psishockStrong=Lingering Potion of Mental Disruption
+
+psionup.event.nearbyEntities=&bEvent&7: Biotic Pulse
+
+psi.spellpiece.psionup.conjurePulsar=Trick: Conjure Pulsar
+psi.spellpiece.psionup.conjurePulsar.desc=Conjures a redstone emitting block in the given position
+
+psi.spellpiece.psionup.conjurePulsarSequence=Trick: Conjure Pulsar Sequence
+psi.spellpiece.psionup.conjurePulsarSequence.desc=Conjures a redstone emitting block
+
+psi.spellpiece.psionup.conjurePulsarLight=Trick: Conjure Pulsar Light
+psi.spellpiece.psionup.conjurePulsarLight.desc=Conjures a redstone emitting light in the given position
+
+psi.spellpiece.psionup.planarNorm=Operator: Planar Normal Vector
+psi.spellpiece.psionup.planarNorm.desc=Creates a perpendicular vector to an axial vector
+
+psi.spellpiece.psionup.vectorRotate=Operator: Rotate Vector
+psi.spellpiece.psionup.vectorRotate.desc=Rotates a vector around an axis
+
+psi.spellpiece.psionup.strongVectorRaycast=Operator: Vector Strong Raycast
+psi.spellpiece.psionup.strongVectorRaycast.desc=Gets a raycast result, ignoring nonsolids (max 32)
+
+psi.spellpiece.psionup.strongVectorRaycastAxis=Operator: Vector Axis Strong Raycast
+psi.spellpiece.psionup.strongVectorRaycastAxis.desc=Gets a raycast side, ignoring nonsolids (max 32)
+
+psi.spellpiece.psionup.vectorFallback=Operator: Vector Fallback
+psi.spellpiece.psionup.vectorFallback.desc=Uses the fallback vector if the target has 0 length or doesn't exist
+
+psi.spellpiece.psionup.particleTrail=Trick: Particle Trail
+psi.spellpiece.psionup.particleTrail.desc=Makes a particle trail from a position along a ray
+
+psi.spellpiece.psionup.conjureCrackle=Trick: Conjure Star
+psi.spellpiece.psionup.conjureCrackle.desc=Conjures a light that emits particles along the given ray
+
+psi.spellpiece.psionup.loopcastBreak=Trick: Break Loop
+psi.spellpiece.psionup.loopcastBreak.desc=Stops loop if target is within ]-1, 1[
+
+psi.spellpiece.psionup.listSize=Operator: List Size
+psi.spellpiece.psionup.listSize.desc=Gets the number of entities in a list
+
+psi.spellpiece.psionup.makeManaBurst=Trick: Form Burst
+psi.spellpiece.psionup.makeManaBurst.desc=Makes a mana burst from a position along a ray
+
+psi.spellpiece.psionup.drumOfTheWild=Trick: Wild Pulse
+psi.spellpiece.psionup.drumOfTheWild.desc=Pulses with the sound of the Drum of the Wild
+
+psi.spellpiece.psionup.drumOfTheCanopy=Trick: Canopy Pulse
+psi.spellpiece.psionup.drumOfTheCanopy.desc=Pulses with the sound of the Drum of the Canopy
+
+psi.spellpiece.psionup.drumOfTheGathering=Trick: Gathering Pulse
+psi.spellpiece.psionup.drumOfTheGathering.desc=Pulses with the sound of the Drum of the Gathering
+
+itemGroup.psionup=PSIonic Upgrades
+
+psionup.subtitle.thwack=Metal thwacks
+
+psionup.learn.usage=/psi-learn <group> [player]
+psionup.learn.success=Successfully taught %s %s
+psionup.learn.success.all=Successfully taught %s all of Psi
+psionup.learn.shouldnt=%s already knows %s
+psionup.unlearn.usage=/psi-unlearn <group> [player]
+psionup.unlearn.success=Successfully made %s forget %s
+psionup.unlearn.success.all=Successfully made %s forget all of Psi
+psionup.unlearn.shouldnt=%s doesn't know %s
+psionup.learn.players=%s isn't a player, only players can have Psi knowledge
+psionup.learn.notAGroup='%s' is not a valid Psi rune group
+
+psionup.misc.psidust=Psidust Infusion
+
+psionup.requirement.formBurst=Mana Blaster Rod Assembly
+
+psionup.requirement.base=&bMana Flow Enabler
+psionup.requirement.alfheim=&aElven&b Mana Flow Enabler
+psionup.requirement.gaia=&dGaian&b Mana Flow Enabler
+psionup.requirement.relic=&6Reliquary&b Mana Flow Enabler
+
+psionup.requirement.manaCAD=Allows &bMana&7 Flow
+
+psionup.misc.lens=Lens&7: %s
+psionup.misc.color=Color
+psionup.misc.colorInheritance=Color Inheritance
+psionup.misc.tooComplex=This spell is too large for the notch in your Spell Magazine.
+psionup.misc.tooComplexBullet=This spell is too large for the notch in your Spell Magazine to transfer.
+
+psionup.spellerror.nonaxial=ERROR: Spell Operation Vector is not axial in a rune where it must be.
+psionup.spellerror.tricknotenabled=ERROR: Trick doesn't have an enabling component.
+psionup.spellerror.trickdisabled=ERROR: Trick's enabling component doesn't have its requirements met.
+psionup.spelldesc.requires=&7Requires: &5%s
+
+psionup.spellparam.axis=Axis
+psionup.spellparam.angle=Radians
+psionup.spellparam.fallback=Fallback
+
+jei.psionup.recipe.trickCrafting=Spell Infusion
+jei.psionup.drained.desc=Sneak-using the Liquid-Ink Colorizer will drain the fluid out, resulting in a Drained Colorizer.
+
+psi.piecegroup.psionup.secondaryVectors=Vector Operators II
+psi.piecegroup.psionup.secondaryVectors.desc=As the name implies, this group includes nonessential vector operators. The Runes can be separated into three sets.<br><br>The first set is rotation. The red piece, Planar Norm, will get a perpendicular vector to any axial vector, without needing Operator: Vector Cross Product. Vector Rotate will rotate a vector around another, by an angle (in radians).<br><br>The second set is strong raycasts. These act exactly like their regular counterparts, except they ignore nonsolid blocks such as tall grass.<br><br>The final rune is Trick: Particle Trail, which displays a ray in particles for up to twenty seconds, based on the Time parameter.<br>The last set is safety. The single safety rune is Operator: Vector Fallback. If a nonexistent or 0-length vector is given to it as a target, it will pass its fallback along. Otherwise, it will pass the target along.
+
+psi.piecegroup.psionup.redstoneConjuration=Alternate Conjuration
+psi.piecegroup.psionup.redstoneConjuration.desc=These Runes are quite similar to those of the previous group, Block Conjuration. The first type of alternate conjuration is Pulsar. The singular difference between these and the previous group is that conjured Pulsars have a red flare at their center, and emit redstone. The second type is Trick: Conjure Star. It creates a small ball of light that emits a ray of particles. Subsequent casts on the same position will add more rays, but not change the color.
+
+psi.piecegroup.psionup.manaPsionics=Mana Manipulation
+psi.piecegroup.psionup.manaPsionics.desc=What is elemental magic worth without its most base counterpart?<br><br>This group allows the caster to manipulate the power of Mana. Specifically, making a burst of Mana from your inventory, similar to a Mana Blaster. This requires a special Rod assembly to function, as Psionic materials cannot carry Mana naturally. A Rod made with a Mana Blaster Rod Assembly can store a lens, just like a regular Blaster. Anything a blaster can accept, the Mana Blaster Rod can too. This Rod can enable Mana Flow, allowing any mana trick to fire.<br><br>The other tricks in the category mimic various drums, with a Pulse instead of a drum. The only strange trick is the Gathering Pulse, which requires an Alfen Flow Enabler. This can be achieved by slotting a Lens Clip onto your Mana Blaster Rod.
+

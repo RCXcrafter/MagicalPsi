@@ -1,0 +1,151 @@
+{
+	"__comment": "Designed by Wiiv with Cubik Studio - https://cubik.studio",
+    "textures": {
+        "0": "psi:items/cad_color",
+        "1": "psionup:items/blasterCAD",
+        "2": "botania:blocks/manaGlass"
+    },
+    "elements": [
+		{
+			"name": "colorizer",
+			"from": [ 7.5, 19, 7 ],
+			"to": [ 8.5, 22, 10 ],
+			"rotation": { "origin": [ 7.5, 19, 7 ], "axis": "x", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 0, 0, 0, 0 ], "texture": "#1", "tintindex": 1  },
+				"up": { "uv": [ 0, 0, 0, 0 ], "texture": "#1", "tintindex": 1  },
+				"north": { "uv": [ 0, 0, 0, 0 ], "texture": "#1", "tintindex": 1  },
+				"south": { "uv": [ 0, 0, 0, 0 ], "texture": "#1", "tintindex": 1  },
+				"west": { "uv": [ 0, 0, 0, 0 ], "texture": "#1", "tintindex": 1  },
+				"east": { "uv": [ 0, 0, 0, 0 ], "texture": "#1", "tintindex": 1  }
+			}
+		},
+        {
+            "name": "Element",
+            "from": [ 7.0, 18.0, 7.0 ], 
+            "to": [ 9.0, 22.0, 9.0 ], 
+            "faces": {
+                "north": { "texture": "#1", "uv": [ 2.0, 7.0, 4.0, 11.0 ] },
+                "east": { "texture": "#1", "uv": [ 2.0, 7.0, 4.0, 11.0 ] },
+                "south": { "texture": "#1", "uv": [ 2.0, 7.0, 4.0, 11.0 ] },
+                "west": { "texture": "#1", "uv": [ 2.0, 7.0, 4.0, 11.0 ] },
+                "up": { "texture": "#1", "uv": [ 4.0, 7.0, 6.0, 9.0 ] },
+                "down": { "texture": "#1", "uv": [ 4.0, 7.0, 6.0, 9.0 ] }
+            }
+        },
+        {
+            "name": "Element",
+            "from": [ 7.0, 2.0, 7.0 ], 
+            "to": [ 9.0, 18.0, 9.0 ], 
+            "faces": {
+                "north": { "texture": "#1", "uv": [ 0.0, 0.0, 2.0, 16.0 ] },
+                "east": { "texture": "#1", "uv": [ 0.0, 0.0, 2.0, 16.0 ] },
+                "south": { "texture": "#1", "uv": [ 0.0, 0.0, 2.0, 16.0 ] },
+                "west": { "texture": "#1", "uv": [ 0.0, 0.0, 2.0, 16.0 ] },
+                "up": { "texture": "#1", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+                "down": { "texture": "#1", "uv": [ 0.0, 14.0, 2.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "Element",
+            "from": [ 8.5, 19.0, 7.0 ], 
+            "to": [ 9.5, 23.0, 11.0 ], 
+            "rotation": { "origin": [ 8.5, 19.0, 7.0 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#1", "uv": [ 2.0, 0.0, 3.0, 4.0 ] },
+                "east": { "texture": "#1", "uv": [ 2.0, 0.0, 6.0, 4.0 ] },
+                "south": { "texture": "#1", "uv": [ 2.0, 0.0, 3.0, 4.0 ] },
+                "west": { "texture": "#1", "uv": [ 2.0, 0.0, 6.0, 4.0 ] },
+                "up": { "texture": "#1", "uv": [ 5.0, 4.0, 6.0, 0.0 ] },
+                "down": { "texture": "#1", "uv": [ 5.0, 4.0, 6.0, 0.0 ] }
+            }
+        },
+        {
+            "name": "Element",
+            "from": [ 6.5, 19.0, 7.0 ], 
+            "to": [ 7.5, 23.0, 11.0 ], 
+            "rotation": { "origin": [ 6.5, 19.0, 7.0 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#1", "uv": [ 2.0, 0.0, 3.0, 4.0 ] },
+                "east": { "texture": "#1", "uv": [ 2.0, 0.0, 6.0, 4.0 ] },
+                "south": { "texture": "#1", "uv": [ 2.0, 0.0, 3.0, 4.0 ] },
+                "west": { "texture": "#1", "uv": [ 2.0, 0.0, 6.0, 4.0 ] },
+                "up": { "texture": "#1", "uv": [ 5.0, 4.0, 6.0, 0.0 ] },
+                "down": { "texture": "#1", "uv": [ 5.0, 4.0, 6.0, 0.0 ] }
+            }
+        },
+        {
+            "name": "Element",
+            "from": [ 8.0, 23.5, 4.0 ], 
+            "to": [ 12.0, 27.5, 8.0 ], 
+            "rotation": { "origin": [ 8.0, 23.5, 8.0 ], "axis": "y", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#1", "uv": [ 10.0, 4.0, 6.0, 0.0 ], "rotation": 270 },
+                "east": { "texture": "#1", "uv": [ 6.0, 0.0, 10.0, 4.0 ], "rotation": 270 },
+                "south": { "texture": "#1", "uv": [ 6.0, 0.0, 10.0, 4.0 ], "rotation": 180 },
+                "west": { "texture": "#1", "uv": [ 6.0, 0.0, 10.0, 4.0 ] },
+                "up": { "texture": "#1", "uv": [ 6.0, 0.0, 10.0, 4.0 ] },
+                "down": { "texture": "#1", "uv": [ 10.0, 4.0, 6.0, 0.0 ], "rotation": 270 }
+            }
+        },
+        {
+            "name": "Element",
+            "from": [ 6.5, 0.0, 7.0 ], 
+            "to": [ 9.5, 3.0, 10.0 ], 
+            "rotation": { "origin": [ 6.5, 3.0, 7.0 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#1", "uv": [ 2.0, 4.0, 5.0, 7.0 ] },
+                "east": { "texture": "#1", "uv": [ 5.0, 4.0, 8.0, 7.0 ] },
+                "south": { "texture": "#1", "uv": [ 2.0, 4.0, 5.0, 7.0 ] },
+                "west": { "texture": "#1", "uv": [ 5.0, 4.0, 8.0, 7.0 ] },
+                "up": { "texture": "#1", "uv": [ 2.0, 4.0, 5.0, 7.0 ] },
+                "down": { "texture": "#1", "uv": [ 2.0, 4.0, 5.0, 7.0 ] }
+            }
+        },
+        {
+            "name": "Glass",
+            "from": [ 6.5, 13.0, 5.0 ], 
+            "to": [ 9.5, 19.0, 8.0 ], 
+            "faces": {
+                "north": { "texture": "#2", "uv": [ 0.0, 0.0, 3.0, 6.0 ] },
+                "east": { "texture": "#2", "uv": [ 0.0, 0.0, 3.0, 6.0 ] },
+                "south": { "texture": "#2", "uv": [ 0.0, 0.0, 3.0, 6.0 ] },
+                "west": { "texture": "#2", "uv": [ 0.0, 0.0, 3.0, 6.0 ] },
+                "up": { "texture": "#2", "uv": [ 0.0, 0.0, 3.0, 3.0 ] },
+                "down": { "texture": "#2", "uv": [ 0.0, 0.0, 3.0, 3.0 ] }
+            }
+        }
+    ],
+	"display": {
+		"thirdperson_righthand": {
+			"translation":  [ 0, -4, 2 ]
+		},
+		"thirdperson_lefthand": {
+			"translation":  [ 0, -4, 2 ]
+		},
+		"firstperson_righthand": {
+			"translation":  [ 0, -6, -2 ]
+		},
+		"firstperson_lefthand": {
+			"translation":  [ 0, -6, -2 ]
+		},
+		"gui": {
+			"rotation":  [ 90, -45, 90 ],
+			"translation":  [ 2, -2, 0 ],
+			"scale":  [ 0.625, 0.625, 0.625 ]
+		},
+		"ground": {
+			"rotation":  [ 0, 0, 90 ],
+			"translation":  [ 2, 0, 2 ]
+		},
+		"fixed": {
+			"rotation":  [ 90, 45, -90 ],
+			"translation":  [ -2, -2, 0 ],
+			"scale":  [ 0.625, 0.625, 0.625 ]
+		}
+	},
+  "overrides": [{
+    "predicate": { "psionup:clip": 1 },
+    "model": "psionup:item/cadBlasterClip"
+  }]
+}

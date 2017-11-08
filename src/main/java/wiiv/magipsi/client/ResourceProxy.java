@@ -20,7 +20,7 @@ public class ResourceProxy extends AbstractResourcePack {
 
 	public static final String[] DEFAULT_RESOURCE_PACKS = new String[] { "aD", "field_110449_ao", "defaultResourcePacks" };
 
-	private static final Set<String> RESOURCE_DOMAINS = ImmutableSet.of("psi", "minecraft");
+	private static final Set<String> RESOURCE_DOMAINS = ImmutableSet.of("psi", "minecraft", "psionup");
 
 	private static final String PACK_META = "pack.mcmeta";
 	private static final String PROXYPACK_META = "/proxypack.mcmeta";
@@ -78,7 +78,12 @@ public class ResourceProxy extends AbstractResourcePack {
 		if(name.contains("tab_psi.png"))
 			name = "/assets/magipsi/textures/misc/tab_psi.png";
 		
+		if(name.contains("tab_psionup.png"))
+			name = "/assets/magipsionup/textures/misc/tab_psionup.png";
+
 		name = name.replaceAll("\\/assets\\/psi", "/assets/magipsi");
+
+		name = name.replaceAll("\\/assets\\/psionup", "/assets/magipsionup");
 		
 		return MagicalPsi.class.getResourceAsStream(name);
 	}
