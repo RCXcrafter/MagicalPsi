@@ -13,7 +13,7 @@ public class MagicalPsi {
 	public static final String MOD_ID = "magipsi";
 	public static final String MOD_NAME = "Magical Psi";
 	public static final String VERSION = "dev";
-	public static final String DEPENDENCIES = "required-after:Psi";
+	public static final String DEPENDENCIES = "required-before:Psi";
 	
 	public MagicalPsi() {
 		ensureResourceOrder();
