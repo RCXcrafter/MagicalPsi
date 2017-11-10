@@ -374,7 +374,7 @@ public class ModCraftingRecipes {
 					'C', copper,
 					'D', "dustPsi");
 
-			if(Loader.isModLoaded("botania")) {
+			if(Loader.isModLoaded("Botania")) {
 				addOreDictRecipe(new ItemStack(Item.REGISTRY.getObject(new ResourceLocation("psionup", "cadAssemblyBlaster")), 1, 0),
 						"P  ", "LSL", "  M",
 						'M', "runeManaB",
