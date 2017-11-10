@@ -4,8 +4,7 @@ import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.FMLLog;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
-import net.minecraftforge.fml.common.SidedProxy;
-import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 
 @Mod(modid = MagicalPsi.MOD_ID, name = MagicalPsi.MOD_NAME, version = MagicalPsi.VERSION, dependencies = MagicalPsi.DEPENDENCIES)
 public class MagicalPsi {
@@ -13,10 +12,15 @@ public class MagicalPsi {
 	public static final String MOD_ID = "magipsi";
 	public static final String MOD_NAME = "Magical Psi";
 	public static final String VERSION = "dev";
-	public static final String DEPENDENCIES = "required-before:Psi";
+	public static final String DEPENDENCIES = "required-before:Psi;before:psionup";
 	
 	public MagicalPsi() {
 		ensureResourceOrder();
+	}
+
+	@EventHandler
+	public void postInit(FMLPostInitializationEvent event) {
+		ModCraftingRecipes.init();
 	}
 
 	// Construction is called before resources are loaded and before

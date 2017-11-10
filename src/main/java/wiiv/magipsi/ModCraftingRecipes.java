@@ -1,10 +1,17 @@
 package wiiv.magipsi;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.CraftingManager;
 import net.minecraft.item.crafting.IRecipe;
+import net.minecraft.util.ResourceLocation;
+import net.minecraftforge.fml.common.Loader;
+import net.minecraftforge.oredict.OreDictionary;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 import net.minecraftforge.oredict.ShapelessOreRecipe;
 import vazkii.psi.common.block.base.ModBlocks;
@@ -12,7 +19,7 @@ import vazkii.psi.common.item.base.ModItems;
 
 public class ModCraftingRecipes {
 
-	public static void init() {
+	public static void preInit() {
 		addOreDictRecipe(new ItemStack(ModBlocks.cadAssembler),
 				"GWG", "WPW", " G ",
 				'G', "ingotGold",
@@ -311,8 +318,71 @@ public class ModCraftingRecipes {
 				'I', "ingotPsi");	
 		addShapelessOreDictRecipe(new ItemStack(ModBlocks.psiDecorative, 1, 4), new ItemStack(ModBlocks.psiDecorative, 1, 3), "dustGlowstone");
 		addShapelessOreDictRecipe(new ItemStack(ModBlocks.psiDecorative, 1, 6), new ItemStack(ModBlocks.psiDecorative, 1, 5), "dustGlowstone");
+	}
+	
+	public static void init() {
+		if(Loader.isModLoaded("psionup")) {
+			List<IRecipe> oldRecipes = new ArrayList<IRecipe>();
+			List<String> newRecipes = new ArrayList<String>();
+			newRecipes.add("fakeCAD");
+			newRecipes.add("wideSocket");
+			newRecipes.add("bioticSensor");
+			newRecipes.add("gaussRifle");
+			newRecipes.add("gaussBullet");
+			newRecipes.add("cadAssemblyBlaster");
+			for (IRecipe recipe : CraftingManager.getInstance().getRecipeList()){
+				if (recipe != null && recipe.getRecipeOutput() != null && recipe.getRecipeOutput().getItem() != null && recipe.getRecipeOutput().getItem().getRegistryName() != null && recipe.getRecipeOutput().getItem().getRegistryName().getResourcePath() != null) {
+					if (newRecipes.contains(recipe.getRecipeOutput().getItem().getRegistryName().getResourcePath()))
+						oldRecipes.add(recipe);
+				}
+			}
+			CraftingManager.getInstance().getRecipeList().removeAll(oldRecipes);
 
+			String copper = "dustRedstone";
+			if (OreDictionary.doesOreNameExist("ingotCopper"))
+				copper = "ingotCopper";
 
+			addOreDictRecipe(new ItemStack(Item.REGISTRY.getObject(new ResourceLocation("psionup", "fakeCAD")), 1, 0),
+					"M  ", "MSM", "  G",
+					'M', "ingotPsi",
+					'S', new ItemStack(Item.REGISTRY.getObject(new ResourceLocation("psionup", "wideSocket")), 1, 0),
+					'G', "gemPsi");
+
+			addOreDictRecipe(new ItemStack(Item.REGISTRY.getObject(new ResourceLocation("psionup", "wideSocket")), 1, 0),
+					" GW", "DW ", "W  ",
+					'W', new ItemStack(Blocks.LOG),
+					'D', "dustPsi",
+					'G', "dustGlowstone");
+
+			addOreDictRecipe(new ItemStack(Item.REGISTRY.getObject(new ResourceLocation("psionup", "bioticSensor")), 1, 0),
+					" P ", "PEI", " I ",
+					'P', "ingotPsi",
+					'E', Items.ENDER_EYE,
+					'I', "ingotGold");
+
+			addOreDictRecipe(new ItemStack(Item.REGISTRY.getObject(new ResourceLocation("psionup", "gaussRifle")), 1, 0),
+					"IC ", "IWI", " PI",
+					'C', copper,
+					'I', "ingotIron",
+					'P', "dustPsi",
+					'W', new ItemStack(Blocks.LOG));
+
+			addOreDictRecipe(new ItemStack(Item.REGISTRY.getObject(new ResourceLocation("psionup", "gaussBullet")), 2, 0),
+					"CPD", "  W",
+					'W', new ItemStack(Blocks.LOG),
+					'P', new ItemStack(Items.PAPER),
+					'C', copper,
+					'D', "dustPsi");
+
+			if(Loader.isModLoaded("botania")) {
+				addOreDictRecipe(new ItemStack(Item.REGISTRY.getObject(new ResourceLocation("psionup", "cadAssemblyBlaster")), 1, 0),
+						"P  ", "LSL", "  M",
+						'M', "runeManaB",
+						'L', "ingotManasteel",
+						'P', "gemPsi",
+						'S', new ItemStack(Item.REGISTRY.getObject(new ResourceLocation("botania", "spreader")), 1, 1));
+			}
+		}
 	}
 
 	private static void addOreDictRecipe(ItemStack output, Object... recipe) {
