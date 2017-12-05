@@ -23,14 +23,14 @@ public class ModCraftingRecipes {
 		addOreDictRecipe(new ItemStack(ModBlocks.cadAssembler),
 				"GWG", "WPW", " G ",
 				'G', "ingotGold",
-				'W', new ItemStack(Blocks.LOG),
+				'W', "logWood",
 				'P', new ItemStack(Blocks.PISTON));
 
 		addOreDictRecipe(new ItemStack(ModBlocks.programmer),
 				"WMW", "WDW", "G G",
 				'G', "ingotGold",
 				'M', new ItemStack(Items.MAP),
-				'W', new ItemStack(Blocks.LOG),
+				'W', "logWood",
 				'D', "dustPsi");
 
 		addOreDictRecipe(new ItemStack(ModItems.material, 1, 3),
@@ -45,23 +45,23 @@ public class ModCraftingRecipes {
 		addOreDictRecipe(new ItemStack(ModItems.cadAssembly, 1, 0),
 				"I  ", "IWI", "  I",
 				'I', "ingotIron",
-				'W', new ItemStack(Blocks.LOG));
+				'W', "logWood");
 		addOreDictRecipe(new ItemStack(ModItems.cadAssembly, 1, 1),
 				"I  ", "IWI", "  I",
 				'I', "ingotGold",
-				'W', new ItemStack(Blocks.LOG));
+				'W', "logWood");
 		addOreDictRecipe(new ItemStack(ModItems.cadAssembly, 1, 2),
 				"I  ", "IWI", "  I",
 				'I', "ingotPsi",
-				'W', new ItemStack(Blocks.LOG));
+				'W', "logWood");
 		addOreDictRecipe(new ItemStack(ModItems.cadAssembly, 1, 3),
 				"I  ", "IWI", "  I",
 				'I', "ingotEbonyPsi",
-				'W', new ItemStack(Blocks.LOG));
+				'W', "logWood");
 		addOreDictRecipe(new ItemStack(ModItems.cadAssembly, 1, 4),
 				"I  ", "IWI", "  I",
 				'I', "ingotIvoryPsi",
-				'W', new ItemStack(Blocks.LOG));
+				'W', "logWood");
 
 		addOreDictRecipe(new ItemStack(ModItems.cadCore, 1, 0),
 				"I  ", "DPD", "  I",
@@ -91,27 +91,27 @@ public class ModCraftingRecipes {
 
 		addOreDictRecipe(new ItemStack(ModItems.cadSocket, 1, 0),
 				"DW", "W ",
-				'W', new ItemStack(Blocks.LOG),
+				'W', "logWood",
 				'D', "dustPsi");
 		addOreDictRecipe(new ItemStack(ModItems.cadSocket, 1, 1),
 				"DIW", "IW ", "W  ",
-				'W', new ItemStack(Blocks.LOG),
+				'W', "logWood",
 				'I', "ingotPsi",
 				'D', "dustRedstone");
 		addOreDictRecipe(new ItemStack(ModItems.cadSocket, 1, 2),
 				"DIW", "IW ", "W  ",
-				'W', new ItemStack(Blocks.LOG),
+				'W', "logWood",
 				'I', "ingotPsi",
 				'D', "dustGlowstone");
 		addOreDictRecipe(new ItemStack(ModItems.cadSocket, 1, 3),
 				"DIW", "IG ", "W  ",
-				'W', new ItemStack(Blocks.LOG),
+				'W', "logWood",
 				'I', "ingotPsi",
 				'G', "gemPsi",
 				'D', "dustRedstone");
 		addOreDictRecipe(new ItemStack(ModItems.cadSocket, 1, 4),
 				"DIW", "IG ", "W  ",
-				'W', new ItemStack(Blocks.LOG),
+				'W', "logWood",
 				'I', "ingotPsi",
 				'G', "gemPsi",
 				'D', "dustGlowstone");
@@ -153,80 +153,80 @@ public class ModCraftingRecipes {
 
 		addOreDictRecipe(new ItemStack(ModItems.spellBullet, 1, 0),
 				"DP", " W",
-				'W', new ItemStack(Blocks.LOG),
-				'P', new ItemStack(Items.PAPER),
+				'W', "logWood",
+				'P', "paper",
 				'D', "dustPsi");
 		addOreDictRecipe(new ItemStack(ModItems.spellBullet, 1, 2),
 				"APD", "  W",
-				'W', new ItemStack(Blocks.LOG),
-				'P', new ItemStack(Items.PAPER),
+				'W', "logWood",
+				'P', "paper",
 				'A', new ItemStack(Items.ARROW),
 				'D', "dustPsi");
 		addOreDictRecipe(new ItemStack(ModItems.spellBullet, 1, 4),
 				"APD", "  W",
-				'W', new ItemStack(Blocks.LOG),
-				'P', new ItemStack(Items.PAPER),
+				'W', "logWood",
+				'P', "paper",
 				'A', new ItemStack(Items.STRING),
 				'D', "dustPsi");
 		addOreDictRecipe(new ItemStack(ModItems.spellBullet, 1, 6),
 				"APD", "  W",
-				'W', new ItemStack(Blocks.LOG),
-				'P', new ItemStack(Items.PAPER),
+				'W', "logWood",
+				'P', "paper",
 				'A', "slimeball",
 				'D', "dustPsi");
 		addOreDictRecipe(new ItemStack(ModItems.spellBullet, 1, 6),
 				"APD", "  W",
-				'W', new ItemStack(Blocks.LOG),
-				'P', new ItemStack(Items.PAPER),
+				'W', "logWood",
+				'P', "paper",
 				'A', new ItemStack(Items.SNOWBALL),
 				'D', "dustPsi");
 		addOreDictRecipe(new ItemStack(ModItems.spellBullet, 1, 8),
 				"APD", "  W",
-				'W', new ItemStack(Blocks.LOG),
-				'P', new ItemStack(Items.PAPER),
+				'W', "logWood",
+				'P', "paper",
 				'A', new ItemStack(Items.GUNPOWDER),
 				'D', "dustPsi");
 		addOreDictRecipe(new ItemStack(ModItems.spellBullet, 1, 10),
 				"APD", "  W",
-				'W', new ItemStack(Blocks.LOG),
-				'P', new ItemStack(Items.PAPER),
+				'W', "logWood",
+				'P', "paper",
 				'A', "dustRedstone",
 				'D', "dustPsi");
 		addOreDictRecipe(new ItemStack(ModItems.spellBullet, 1, 12),
 				"APD", "  W",
-				'W', new ItemStack(Blocks.LOG),
-				'P', new ItemStack(Items.PAPER),
+				'W', "logWood",
+				'P', "paper",
 				'A', new ItemStack(Blocks.STONE_BUTTON),
 				'D', "dustPsi");
 
 		addOreDictRecipe(new ItemStack(ModItems.spellDrive),
 				"WIW", "PRP", "PIP",
-				'W', new ItemStack(Blocks.LOG),
-				'P', new ItemStack(Items.PAPER),
+				'W', "logWood",
+				'P', "paper",
 				'I', "ingotPsi",
 				'R', "dustRedstone");
 
 		addOreDictRecipe(new ItemStack(ModItems.psimetalShovel),
 				"GP", " W", " I",
-				'W', new ItemStack(Blocks.LOG),
+				'W', "logWood",
 				'P', "ingotPsi",
 				'G', "gemPsi",
 				'I', "ingotGold");
 		addOreDictRecipe(new ItemStack(ModItems.psimetalPickaxe),
 				"PGP", " W ", " I ",
-				'W', new ItemStack(Blocks.LOG),
+				'W', "logWood",
 				'P', "ingotPsi",
 				'G', "gemPsi",
 				'I', "ingotGold");
 		addOreDictRecipe(new ItemStack(ModItems.psimetalAxe),
 				"GP", "PW", " I",
-				'W', new ItemStack(Blocks.LOG),
+				'W', "logWood",
 				'P', "ingotPsi",
 				'G', "gemPsi",
 				'I', "ingotGold");
 		addOreDictRecipe(new ItemStack(ModItems.psimetalSword),
 				" P", "IG", " W",
-				'W', new ItemStack(Blocks.LOG),
+				'W', "logWood",
 				'P', "ingotPsi",
 				'G', "gemPsi",
 				'I', "ingotGold");
@@ -255,14 +255,14 @@ public class ModCraftingRecipes {
 				'I', "ingotGold");
 		addOreDictRecipe(new ItemStack(ModItems.exosuitController),
 				"WRW", "PGP", "WIW",
-				'W', new ItemStack(Blocks.LOG),
-				'P', new ItemStack(Items.PAPER),
+				'W', "logWood",
+				'P', "paper",
 				'R', "dustRedstone",
 				'G', "blockGlassColorless",
 				'I', "ingotPsi");
 		addOreDictRecipe(new ItemStack(ModItems.vectorRuler),
 				"D", "W", "I",
-				'W', new ItemStack(Blocks.LOG),
+				'W', "logWood",
 				'D', "dustPsi",
 				'I', "ingotGold");
 
@@ -350,7 +350,7 @@ public class ModCraftingRecipes {
 
 			addOreDictRecipe(new ItemStack(Item.REGISTRY.getObject(new ResourceLocation("psionup", "wideSocket")), 1, 0),
 					" GW", "DW ", "W  ",
-					'W', new ItemStack(Blocks.LOG),
+					'W', "logWood",
 					'D', "dustPsi",
 					'G', "dustGlowstone");
 
@@ -365,12 +365,12 @@ public class ModCraftingRecipes {
 					'C', copper,
 					'I', "ingotIron",
 					'P', "dustPsi",
-					'W', new ItemStack(Blocks.LOG));
+					'W', "logWood");
 
 			addOreDictRecipe(new ItemStack(Item.REGISTRY.getObject(new ResourceLocation("psionup", "gaussBullet")), 2, 0),
 					"CPD", "  W",
-					'W', new ItemStack(Blocks.LOG),
-					'P', new ItemStack(Items.PAPER),
+					'W', "logWood",
+					'P', "paper",
 					'C', copper,
 					'D', "dustPsi");
 
