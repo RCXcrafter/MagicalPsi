@@ -1,4 +1,4 @@
-package wiiv.magipsi.client;	
+package com.rcx.magipsideas.client;	
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -7,13 +7,14 @@ import java.util.List;
 import java.util.Set;
 
 import com.google.common.collect.ImmutableSet;
+import com.rcx.magipsideas.MagicalPsi;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.AbstractResourcePack;
 import net.minecraft.client.resources.IResourcePack;
 import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.relauncher.ReflectionHelper;
-import wiiv.magipsi.MagicalPsi;
+import com.rcx.magipsideas.client.ResourceProxy;
 
 public class ResourceProxy extends AbstractResourcePack {
 

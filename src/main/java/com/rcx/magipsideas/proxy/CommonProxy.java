@@ -1,4 +1,4 @@
-package wiiv.magipsi.proxy;
+package com.rcx.magipsideas.proxy;
 
 public class CommonProxy {
 

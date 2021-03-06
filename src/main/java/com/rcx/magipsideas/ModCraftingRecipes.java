@@ -1,4 +1,4 @@
-package wiiv.magipsi;
+package com.rcx.magipsideas;
 
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
