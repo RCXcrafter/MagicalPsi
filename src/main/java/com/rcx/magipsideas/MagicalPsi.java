@@ -6,8 +6,6 @@ import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import com.rcx.magipsideas.MagicalPsi;
-import com.rcx.magipsideas.ModCraftingRecipes;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -29,30 +27,9 @@ public class MagicalPsi {
 	@SidedProxy(serverSide = COMMON_PROXY, clientSide = CLIENT_PROXY)
 	public static CommonProxy proxy;
 	
-	public MagicalPsi() {
-		ensureResourceOrder();
-	}
-
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
-		ModCraftingRecipes.init();
 		proxy.replacePsiAssets();
 	}
-
-	// Construction is called before resources are loaded and before
-	// proxies are assigned, so we have to reflect around
-	private void ensureResourceOrder() {
-		if(FMLCommonHandler.instance().getSide().isServer())
-			return;
-
-		String classname = "wiiv.magipsi.client.ResourceProxy";
-		try {
-			Class<?> clazz = Class.forName(classname);
-			clazz.getMethod("init").invoke(null);
-		} catch(Throwable e) {
-			LOGGER.error("Could not hook Resource Proxy.", e);
-		}
-	}
-
 }
 
