@@ -16,7 +16,7 @@ public class MagicalPsi {
 
 	public static final String MOD_ID = "magipsideas";
 	public static final String MOD_NAME = "Magical Psideas model replacer";
-	public static final String VERSION = "1.3";
+	public static final String VERSION = "1.0";
 	public static final String DEPENDENCIES = "required-after:psi";
 
 	public static final String COMMON_PROXY = "com.rcx.magipsideas.proxy.CommonProxy";
